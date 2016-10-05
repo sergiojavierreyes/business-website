@@ -18,7 +18,7 @@
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:visited {
 	color:white;
-	background-color: red;
+	background-color: rgba(225, 0, 0, 1.0); /*slightly darker red*/
 }
 
 .navbar-default .navbar-toggle {
@@ -45,4 +45,3 @@
 .navbar-default .navbar-toggle:visited .icon-bar {
     background-color: red;
 }
-
