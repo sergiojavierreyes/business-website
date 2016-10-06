@@ -1,7 +1,13 @@
 h1 {
 	text-align: center;
 	padding-bottom: 6%;
+	text-decoration: underline;
 }	
+
+h2 {
+	padding-bottom: 4%;
+	text-decoration: underline;
+}
 
 section {
 	padding-left: 100px;
@@ -40,4 +46,5 @@ img {
 
 .lastParagraph {
 	padding-top: 10%;
+	text-align: center;
 }
