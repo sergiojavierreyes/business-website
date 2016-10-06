@@ -1,5 +1,6 @@
 .navbar {
 	background-color: rgba(255, 0, 0, 1); 
+	border-radius: 0px;
 }
 
 .navbar-default .navbar-brand,
@@ -44,4 +45,10 @@
 .navbar-default .navbar-toggle:focus .icon-bar,
 .navbar-default .navbar-toggle:visited .icon-bar {
     background-color: red;
+}
+
+.logo {
+	padding: 8px 0px;
+	max-height: 50px;
+	width: auto;
 }
