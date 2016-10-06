@@ -1,5 +1,6 @@
 .navbar {
 	background-color: rgba(255, 0, 0, 1); 
+	border-radius: 0px;
 }
 
 .navbar-default .navbar-brand,
@@ -22,8 +23,8 @@
 }
 
 .navbar-default .navbar-toggle {
-    border-color: white;
-    border-width: 2px;
+	border-color: white;
+	border-width: 2px;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -36,18 +37,24 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+	background-color: white;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:active .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar,
 .navbar-default .navbar-toggle:visited .icon-bar {
-    background-color: red;
+	background-color: red;
 }
 
-img
-{
- max-width:auto; 
- max-height:auto;   
+
+img {
+	max-width:auto; 
+	max-height:auto;   
+}
+.logo {
+	padding: 8px 0px;
+	max-height: 50px;
+	width: auto;
+
 }
