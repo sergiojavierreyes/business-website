@@ -1,6 +1,5 @@
 h1 {
 	text-align: center;
-	padding-bottom: 6%;
 	text-decoration: underline;
 }	
 
@@ -10,45 +9,22 @@ h2 {
 }
 
 section {
-	padding-left: 100px;
-}
-
-
-.thumbnails {
-	margin-right: -15px;
-
-}
-.thumbnails a{
-	float:left;
-	width:33%;
-	padding-right: 15px;
-	box-sizing: border-box;
-
-}
-.thumbnails img:hover {
-	transform: scale(1) rotate(2deg);
-	box-shadow: 0 0 7px rgba(0,0,0,.5);
-}
-
-/.thumbnails:hover img {
-	opacity: : .6;
-	transform: scale(.92);
-}
-.thumbnails img {
-	display: block;
+	padding: 80px ;
+	text-align: center;
 }
 
 img {
 	max-width: 300px;
-	max-height: 300px;
+	max-height: auto;
 	border-radius: 50%;
 }
 
+p {
+	padding:1%;
+}
+
 .lastParagraph {
-	padding-top: 10%;
+	padding-top: 100px;
 	text-align: center;
 }
 
-.socialMedia a{
-	display: inline-block;
-}
