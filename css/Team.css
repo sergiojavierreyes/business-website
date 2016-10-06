@@ -7,8 +7,10 @@ section {
 	padding-left: 100px;
 }
 
+
 .thumbnails {
 	margin-right: -15px;
+
 }
 .thumbnails a{
 	float:left;
@@ -36,6 +38,6 @@ img {
 	border-radius: 50%;
 }
 
-.clearSec {
-	clear:both;
+.lastParagraph {
+	padding-top: 10%;
 }
