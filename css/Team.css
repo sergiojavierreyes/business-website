@@ -24,7 +24,17 @@ p {
 }
 
 .lastParagraph {
-	padding-top: 100px;
+	padding-top: 1%;
 	text-align: center;
 }
 
+.test section{
+    text-align: center;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
