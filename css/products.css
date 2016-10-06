@@ -1,4 +1,102 @@
+/* Product 'Box'*/
 .product-box {
 	border: 1px solid red;
 	max-width: 300px;
+}
+
+.order-button {
+	text-align: center;
+}
+
+.btn-order,
+.btn-order:visited {
+	background-color: red;
+	color: white;
+	border-color: white;
+}
+
+.btn-order:hover,
+.btn-order:active,
+.btn-order:focus,
+.btn-order:active:hover,
+.btn-order:active:focus {
+	background-color: white;
+	color: red;
+	border-color: red;
+}
+
+/* Product Modal */
+.modal-content {
+	border: none;
+	overflow: hidden;
+}
+
+.modal-header {
+	background-color: red;
+	color: white;
+}
+
+.close {
+	color: white;
+	text-shadow: none;
+	opacity: 0.9;
+}
+
+.close:focus, 
+.close:hover {
+	color: white;
+	text-shadow: none;
+	opacity: 1.0;
+}
+
+.form-group {
+	padding: 0px 5px;
+}
+
+.input-group-addon-title {
+	min-width: 200px;
+}
+
+input:focus::-webkit-input-placeholder /*removes placeholder text on focus*/
+{
+    color: transparent;
+}
+
+.btn-red,
+.btn-red:visited {
+	background-color: red;
+	color: white;
+	border-color: red;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+	background-color: white;
+	color: red;
+	border-color: red;
+}
+
+.btn-red>a,
+.btn-red>a:visited {
+	color: inherit;
+	text-decoration: none
+}
+.btn-red>a:hover,
+.btn-red>a:active,
+.btn-red>a:focus,
+.btn-red>a:hover:active {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+.btn-white,
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus,
+.btn-white:active:hover,
+.btn-white:active:focus {
+	color: red;
 }
