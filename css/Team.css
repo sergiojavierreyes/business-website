@@ -2,13 +2,29 @@ h1 {
 	text-align: center;
 }	
 
+.thumbnails {
+	margin-right: -15px;
+}
+.thumbnails a{
+	float:left;
+	width:33%;
+	padding-right: 15px;
+	box-sizing: border-box;
 
-.column-left{ 
-	float: left; width: 33%; 
 }
-.column-right{
- float: right; width: 33%; 
+.thumbnails img:hover {
+	transform: scale(1) rotate(2deg);
+	box-shadow: 0 0 7px rgba(0,0,0,.5);
 }
-.column-center{ 
-	display: inline-block; width: 33%; 
+
+/.thumbnails:hover img {
+	opacity: : .6;
+	transform: scale(.92);
+}
+.thumbnails img {
+	display: block;
+}
+
+img {
+	max-width: 100%
 }
