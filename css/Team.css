@@ -48,3 +48,7 @@ img {
 	padding-top: 10%;
 	text-align: center;
 }
+
+.socialMedia a{
+	display: inline-block;
+}
