@@ -45,3 +45,9 @@
 .navbar-default .navbar-toggle:visited .icon-bar {
     background-color: red;
 }
+
+img
+{
+ max-width:auto; 
+ max-height:auto;   
+}
