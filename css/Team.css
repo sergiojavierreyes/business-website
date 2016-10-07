@@ -1,11 +1,5 @@
 h1 {
 	text-align: center;
-	text-decoration: underline;
-}	
-
-h2 {
-	padding-bottom: 4%;
-	text-decoration: underline;
 }
 
 section {
@@ -62,4 +56,14 @@ section {
 
 .social-links {
 	padding: 15px 0px;
+}
+
+.location-header {
+	background-color: red;
+	color: white;
+}
+
+.location-map {
+	text-align: center;
+	padding: 25px 0px;
 }
