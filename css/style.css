@@ -72,3 +72,17 @@ img {
 	width: auto;
 
 }
+
+
+.stylingFoot a i {
+	color: white;
+	
+}
+
+.navbar-default .navbar-text {
+	color:white;
+}
+
+.contact-url  {
+	color:white;
+}

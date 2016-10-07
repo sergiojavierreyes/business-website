@@ -2,7 +2,15 @@
 .thumbnail {margin-bottom:6px;}
 
 .carousel-control.left,.carousel-control.right{
-  background-image:none;
-  margin-top:10%;
-  width:5%;
+	background-image:none;
+	margin-top:10%;
+	width:5%;
+}
+
+.footer {
+	text-align: center;
+}
+
+.imageHoover {
+	cursor: pointer;
 }
