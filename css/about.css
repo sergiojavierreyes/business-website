@@ -43,7 +43,7 @@ background-size:cover;
 .btn-to-products:hover,
 .btn-to-products:active,
 .btn-to-products:focus,
-.btn-to-product:hover:active {
+.btn-to-products:active:hover {
 	background-color: white;
 	color: red;
 	border-color: red;

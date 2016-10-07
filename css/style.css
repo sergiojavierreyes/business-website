@@ -63,7 +63,32 @@ img {
 	padding: 8px 0px 8px 10px;
 	max-height: 50px;
 	width: auto;
+}
 
+.stylingFoot a i {
+	color: white;
+	
+}
+
+.navbar-default .navbar-text {
+	color:white;
+}
+
+.contact-url {
+	color:white;
+	text-decoration: none;
+
+}
+
+.zetZijkant {
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.maakWit a {
+	color:white;
 }
 
 .hideme
