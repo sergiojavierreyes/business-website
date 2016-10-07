@@ -27,22 +27,18 @@
       <nav class="navbar navbar-default home-navbar">
         <div class="container-fluid">
 
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <!-- <button> creates hamburger menu button when screen is small -->
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <!-- Logo -->
-              <a class="navbar-left" href="./index.html"><img class="logo" src="./Media/logo_white.png" width=100%></a>
-            </div>
-
-         
-
-
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <!-- <button> creates hamburger menu button when screen is small -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo -->
+            <a class="navbar-left" href="./index.html"><img class="logo" src="./Media/logo_white.png"></a>
+          </div>
           <!-- Nav links to the other pages -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -55,11 +51,14 @@
         </div><!-- /.container-fluid -->
       </nav>
 
+      <!-- VIDEO -->
       <div class="container-fluid videoContainer">
-        <video preload="auto" poster="./Media/video_thumbnail.png" controls=0 loop=loop autoplay=true muted=muted
-        src="./Media/cokeforeveryone.mp4" height="720" width="1280">
+        <video id="intro-video" controls=0 loop=loop muted=muted height="720" width="1280">
+          <source src="./Media/cokeforeveryone.mp4" type="video/mp4" />
+        </video>
       </div>
 
+      <!-- ABOUT -->
       <div class="container about" id="aboutText" class="jumbotron">
         <h1 class="title">ABOUT COCA-COLA</h1>
         <p>
@@ -71,22 +70,24 @@
         </p>
         <a href="./products.html"> <p class="btn btn-primary btn-lg btn-to-products" role="button">
          Have a look at our products!</a>
-        </p>
+       </p>
+     </div>
+
+     <!-- FOOTER -->
+     <footer class="footer">
+      <div class="container">
+        <p class="text-muted"> Do you see me?
+          <a href="https://www.instagram.com/cocacola/"><i class= "fa fa-instagram"></i></a>
+          <a href="https://www.facebook.com/cocacolanetherlands/"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/cocacola_nl?lang=nl"><i class="fa fa-twitter"></i></a>
+          <a href="https://plus.google.com/+Coca-Cola"><i class="fa fa-google-plus"></i></a>
+        </p> 
       </div>
-      
-      <footer class="footer">
-        <div class="container">
-          <p class="text-muted"> Do you see me?
-            <a href="https://www.instagram.com/cocacola/"><i class= "fa fa-instagram"></i></a>
-            <a href="https://www.facebook.com/cocacolanetherlands/"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/cocacola_nl?lang=nl"><i class="fa fa-twitter"></i></a>
-            <a href="https://plus.google.com/+Coca-Cola"><i class="fa fa-google-plus"></i></a>
-          </p> 
-        </div>
-      </footer>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="./js/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="./js/bootstrap.min.js"></script>
-    </body>
-    </html>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+  </html>
