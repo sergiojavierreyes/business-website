@@ -65,3 +65,8 @@ img {
 	width: auto;
 
 }
+
+.hideme
+{
+    opacity:0;
+}

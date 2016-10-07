@@ -1,13 +1,36 @@
+
+p {
+	padding-bottom: 2%;
+}
+
+.banner {
+	background: red;
+	color:white;
+	text-align: center;
+
+}
+.aboutBg{
+background-repeat: no-repeat;
+background-position:center;
+max-width: 100%;
+max-height: 100%;
+background-size:cover;
+
+}
+
 #aboutText {
 	text-align: center;
+
 }
 
 .about {
-	padding: 30px 50px 0px;
+	padding: 30px 50px 40px;
+	background: url(../media/wallpaper3.jpeg) no-repeat center;
+	background-size:cover;
 }
 
-.title {
-	padding-bottom: 15px;
+.about p{
+	color:white;
 }
 
 .btn-to-products,

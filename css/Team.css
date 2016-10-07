@@ -9,22 +9,64 @@ h2 {
 }
 
 section {
-	padding: 80px ;
+	padding:100px;
 	text-align: center;
 }
 
-.team-picture {
+
+.thumbnails a{
+	float:left;
+	width:33%;
+	box-sizing: border-box;
+
+
+}
+.thumbnails img:hover {
+	transform: scale(1) rotate(2deg);
+	box-shadow: 0 0 7px rgba(0,0,0,.5);
+}
+
+/.thumbnails:hover img {
+	opacity: : .6;
+	transform: scale(.92);
+}
+.thumbnails img {
+	display: block;
+}
+
+img {
 	max-width: 300px;
-	max-height: auto;
+	max-height: 300px;
 	border-radius: 50%;
 }
 
-p {
-	padding:1%;
-}
-
 .lastParagraph {
-	padding-top: 100px;
+	padding-top: 6;
 	text-align: center;
 }
 
+.test section{
+
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+ }
+
+.fa-instagram {
+  color: red;
+}
+
+.fa-twitter {
+  color: red;
+}
+
+.fa-facebook {
+  color: red;
+}
