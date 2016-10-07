@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Social - Coca-Cola</title>
+
+  <!-- Bootstrap -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/social.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <nav class="navbar navbar-default home-navbar">
+        <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <!-- <button> creates hamburger menu button when screen is small -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo -->
+            <a class="navbar-left" href="./index.html"><img class="logo" src="./Media/logo_white.png"></a>
+          </div>
+          <!-- Nav links to the other pages -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./photos.html">Pictures</a></li>
+              <li><a href="./team.html">Team</a></li>
+              <li><a href="./social.html">Social</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container social">
+        <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+          <!-- Embed twitter timeline of @CocaCola -->
+          <div class="twitter-widget">
+            <div class=widget-title>
+              <h2>Tweets by <a href="https://twitter.com/CocaCola">@CocaCola</a></h2>
+            </div>
+            <a class="twitter-timeline" data-link-color="#FF0000" data-chrome="noheader nofooter" height="600" href="https://twitter.com/CocaCola">Tweets by CocaCola</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+          <!-- Embed twitter timeline of tweet about #CocaCola -->
+          <div class="twitter-widget">
+            <div class=widget-title> 
+              <h2>Tweets for <a href="https://twitter.com/hashtag/cocacola">#CocaCola</a></h2>
+            </div>
+            <a class="twitter-timeline" data-chrome="noheader nofooter" height="600" href="https://twitter.com/hashtag/CocaCola" data-widget-id="784358473802850304">#CocaCola Tweets</a>
+            <script>
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="./js/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="./js/bootstrap.min.js"></script>
+
+    </body>
+    </html>
