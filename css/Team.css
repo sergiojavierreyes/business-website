@@ -9,32 +9,31 @@ h2 {
 }
 
 section {
-	padding:100px;
 	text-align: center;
+	padding:50px 0px;
+
 }
 
+.team-member {
+	text-align:center;
+}
 
-.thumbnails a{
-	float:left;
+.thumbnails a {
 	width:33%;
 	box-sizing: border-box;
-
-
 }
+
 .thumbnails img:hover {
 	transform: scale(1) rotate(2deg);
 	box-shadow: 0 0 7px rgba(0,0,0,.5);
 }
 
-/.thumbnails:hover img {
+.thumbnails:hover img {
 	opacity: : .6;
 	transform: scale(.92);
 }
-.thumbnails img {
-	display: block;
-}
 
-img {
+.team-img {
 	max-width: 300px;
 	max-height: 300px;
 	border-radius: 50%;
@@ -45,13 +44,10 @@ img {
 	text-align: center;
 }
 
-.test section{
-
+.animation section{
     font-size: 21px;
     text-align: center;
-
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-
 }
 
 @keyframes fadein {
@@ -59,14 +55,11 @@ img {
     to   { opacity: 1; }
  }
 
-.fa-instagram {
+.fa-icon {
   color: red;
+  padding: 0px 5px;
 }
 
-.fa-twitter {
-  color: red;
-}
-
-.fa-facebook {
-  color: red;
+.social-links {
+	padding: 15px 0px;
 }
