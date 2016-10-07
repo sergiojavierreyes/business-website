@@ -1,14 +1,17 @@
 
 .about-par {
 	padding-bottom: 2%;
+	font-family: 'Roboto Light', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
 }
 
 .banner {
 	background: red;
 	color:white;
 	text-align: center;
-
 }
+
 .aboutBg{
 background-repeat: no-repeat;
 background-position:center;
@@ -20,7 +23,6 @@ background-size:cover;
 
 #aboutText {
 	text-align: center;
-
 }
 
 .about {
@@ -29,7 +31,7 @@ background-size:cover;
 	background-size:cover;
 }
 
-.about p{
+.about p {
 	color:white;
 }
 
