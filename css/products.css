@@ -1,4 +1,8 @@
 /* Product 'Box'*/
+#products {
+	padding-top: 30px;
+}
+
 .product-box {
 	border: 1px solid red;
 	max-width: 300px;

@@ -13,7 +13,7 @@ section {
 	text-align: center;
 }
 
-img {
+.team-picture {
 	max-width: 300px;
 	max-height: auto;
 	border-radius: 50%;
