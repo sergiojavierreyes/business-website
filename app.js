@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('.'))
+console.log("Starting application")
 
-app.get('/', (req, res) => {
-	res.render("index")
-})
+app.use(express.static('static'))
 
-app.listen(3000);
+app.listen(3000, ()=> {
+	console.log("Application running...")
+});
